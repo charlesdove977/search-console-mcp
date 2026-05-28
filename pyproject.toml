@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "search-console-mcp"
+version = "0.1.0"
+description = "Model Context Protocol server for Google Search Console. Brings keyword and query data to Claude Code, Cursor, and any MCP-compatible AI tool."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Charles J Dove", email = "charles@ccstrategic.io" }]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+    "google-auth>=2.0",
+    "google-api-python-client>=2.0",
+]
+keywords = [
+    "mcp",
+    "model-context-protocol",
+    "search-console",
+    "google-search-console",
+    "seo",
+    "claude",
+    "claude-code",
+    "anthropic",
+    "cursor",
+    "geo",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+]
+
+[project.urls]
+Homepage = "https://github.com/charlesdove977/search-console-mcp"
+Issues = "https://github.com/charlesdove977/search-console-mcp/issues"
+Source = "https://github.com/charlesdove977/search-console-mcp"
+
+[project.scripts]
+search-console-mcp = "search_console_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/search_console_mcp"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "src/search_console_mcp/**/*.py",
+    "README.md",
+    "LICENSE",
+    "pyproject.toml",
+]
