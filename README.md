@@ -13,6 +13,8 @@
 
 </div>
 
+Step-by-step guide and setup walkthrough: [Google Analytics and Search Console MCP guide on charlieautomates.com](https://charlieautomates.com/resources/google-analytics-mcp/)
+
 ---
 
 ## Why this exists
@@ -209,3 +211,5 @@ MIT. Do whatever you want with it. Attribution appreciated but not required.
 - [Google `analytics-mcp`](https://github.com/googleanalytics/google-analytics-mcp) — companion GA4 MCP, recommended install alongside this one
 - [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk) — the library this server is built on
 - [Claude Code](https://www.anthropic.com/claude-code) — the primary AI host this was built and tested against
+
+More free Claude Code tools: [charlieautomates.com](https://charlieautomates.com/free-resources/)
