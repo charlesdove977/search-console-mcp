@@ -13,6 +13,8 @@
 
 </div>
 
+**Want your SEO data working for you on autopilot?** Join [CC Strategic AI +](https://www.skool.com/cc-strategic-ai-plus/about): my 27-day Claude Code mastery program with a 1-click install setup file, and you work with us to land your first AI client in 90 days, or your money back.
+
 Step-by-step guide and setup walkthrough: [Google Analytics and Search Console MCP guide on charlieautomates.com](https://charlieautomates.com/resources/google-analytics-mcp/)
 
 ---
@@ -212,4 +214,4 @@ MIT. Do whatever you want with it. Attribution appreciated but not required.
 - [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk) — the library this server is built on
 - [Claude Code](https://www.anthropic.com/claude-code) — the primary AI host this was built and tested against
 
-More free Claude Code tools: [charlieautomates.com](https://charlieautomates.com/free-resources/)
+More free Claude Code tools: [charlieautomates.com](https://charlieautomates.com/free-resources/) · Go deeper inside [CC Strategic AI +](https://www.skool.com/cc-strategic-ai-plus/about)
